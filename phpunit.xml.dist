@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit bootstrap="bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="alltests">
+            <file>tests/sql_01_CheckDefaultQueryResultTest.php</file>
+            <file>tests/sql_02_CheckCityLondonQueryResultTest.php</file>
+            <file>tests/sql_03_CheckNewCustomerInsertTest.php</file>
+            <file>tests/sql_04_CheckCustomerUpdateTest.php</file>
+            <file>tests/sql_05_CheckBadQueryTest.php</file>
+            <file>tests/sql_06_CheckCustomerCreationAndDeleteTest.php</file>
+        </testsuite>
+        <testsuite name="oneSetup">
+            <file>tests/oneSetUpFileTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
