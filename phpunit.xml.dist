@@ -9,8 +9,5 @@
             <file>tests/sql_05_CheckBadQueryTest.php</file>
             <file>tests/sql_06_CheckCustomerCreationAndDeleteTest.php</file>
         </testsuite>
-        <testsuite name="oneSetup">
-            <file>tests/oneSetUpFileTest.php</file>
-        </testsuite>
     </testsuites>
 </phpunit>
